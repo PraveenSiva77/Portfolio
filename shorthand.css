@@ -1,0 +1,112 @@
+/* Colors */
+.dtxt-clr{
+    color: rgb(50, 120,230);
+}
+
+.pos-f{
+    position: fixed;
+}
+/* Display */
+.dp-f{
+    display: flex;
+}
+.dp-b{
+    display: block;
+}
+.dp-il{
+    display: inline;
+}
+
+.fxd-c{
+    flex-direction: column;
+}
+/* align */
+.ai-c{
+    align-items: center;
+}
+
+/* justify */
+.jc-s{
+    justify-content: start;
+}
+.jc-c{
+    justify-content: center;
+}
+.jc-e{
+    justify-content: end;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-sa{
+    justify-content: space-around;
+}
+.jc-se{
+    justify-content: space-evenly;
+}
+
+/* text align */
+.ta-c{
+    text-align: center;
+}
+.ta-l{
+    text-align: left;
+}
+.ta.r{
+    text-align: right;
+}
+.m-auto{
+    margin: auto;
+}
+
+/* border */
+.bdr-b{
+    border-bottom: 1px solid rgb(50, 120,230);
+}
+.bdr-t{
+    border-top: 1px solid rgb(50, 120,230);
+}
+
+/* Text */
+.txt-dec-n{
+    text-decoration: none;
+}
+
+/* Button default */
+.btns{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 100px;
+    margin: 1rem .5rem;
+}
+.btnsHov:hover{
+    box-shadow: 0 0 10px rgb(50, 120,230);
+    color: #fff;
+}
+
+/* Text Default */
+.txtHov:hover{
+    text-shadow: 0 0 15px rgb(50, 120,230);
+}
+
+/* Base */
+.secBase{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+}
+.secLt,.secRt{
+    width: 48%;
+    padding: 2rem;
+}
+
+/* seperateing Line */
+.vl{
+    height: 12rem;
+    border-left: 1px solid rgb(50, 120,230);
+}
+.hl{
+    width: 60%;
+    color: rgb(50, 120,230);
+    border-bottom: 1px solid rgb(50, 120,230);
+    
+}

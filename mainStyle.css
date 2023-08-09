@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+}
+
+
+#check:checked ~ .rightSide ul{
+   display: block;
+}
+
+/* Nav Bar */
+#navBar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.nav1{
+    padding: 0.5rem 2rem;  
+}
+.navLinks1{
+    margin-top: 0.7rem;
+}
+.linkList{
+    margin: 0 1rem;
+    list-style: none;
+}
+.linkList a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s ease-in;
+}
+.linkList a:hover{
+    color: rgb(50,120,230);
+}
+
+/* Home */
+#home{
+   padding-top: 10vh;
+   height: 100vh;
+
+}
+.secRt img{
+    height: 50vh;
+    margin-bottom: 5rem;
+}
+.btnBase{
+    margin: 3rem 0;
+}
+.hmBtn{
+    border: 1px solid rgb(50,120,230);
+    color: rgb(50,120,230);
+}
+.resumeBtn{
+    border: 1px solid rgb(50,120,230);
+    background-color: rgb(50,120,230);
+}
+
+/* About */
+#about .secLt img{
+    height: 50vh;
+}
+.des{
+    padding: 0 2rem;
+}
+#about h3{
+    margin-top: 2rem;
+}
+/* skills */
+.skills{
+    margin-top: 2rem;
+}
+.prgBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(14, 84, 197) 90%, rgb(111, 147, 205) 0);    
+}
+.prgBar::before {
+    content: "Python";
+    color: black;
+}
+.prgBar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(14, 84, 197) 75%, rgb(111, 147, 205) 0);    
+}
+.prgBar2::before {
+    content: "C";
+    color: black;
+}
+.prgBar3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(14, 84, 197) 50%, rgb(111, 147, 205) 0);    
+}
+.prgBar3::before {
+    content: "Java";
+    color: black;
+}
+
+/* Services */
+#services{
+    height: 100vh;
+    padding: 1rem;
+}
+.parts{
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid rgb(50,120,230);
+    margin: 4rem 1rem;
+    padding: 1rem;
+}
+.parts:hover{
+    transform: scale(1.1);
+}
+.parts img{
+    height: 20vh;
+}
+.moreBtn{
+    border: 2px solid rgb(50,120,230);
+    color: rgb(50,120,230);
+}
+
+/* Projects */
+#projects{
+    height: 100vh;
+    padding: 2rem;
+}
+.prParts{
+    width: 25%;
+    height: 50vh;
+    border-radius: 10px;
+    border: 1px solid rgb(50,120,230);
+    margin: 4rem 1rem;
+    padding: 1rem;
+}
+.prParts:hover{
+    transform: scale(1.1);
+}
+.prParts img{
+    height: 20vh;
+}
+.viewBtn{
+    border: 2px solid rgb(50,120,230);
+    color: rgb(50,120,230);
+}
+.prBase div:nth-child(odd){
+    margin-bottom: 10rem;
+}
+.prBase div:nth-child(even){
+    margin-top: 10rem;
+}
