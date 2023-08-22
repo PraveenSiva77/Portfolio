@@ -1,0 +1,166 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Marck+Script&family=Philosopher:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Sacramento&display=swap');
+
+/* font-family: 'Fredericka the Great', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+
+
+/* Colors */
+.dtxt-clr{
+    color: rgb(50, 120,230);
+}
+
+.pos-f{
+    position: fixed;
+}
+/* Display */
+.dp-f{
+    display: flex !important;
+}
+.dp-b{
+    display: block;
+}
+.dp-il{
+    display: inline;
+}
+.fxd-c{
+    flex-direction: column;
+}
+/* align */
+.ai-c{
+    align-items: center;
+}
+.ai-s{
+    align-items: start;
+}
+
+/* justify */
+.jc-s{
+    justify-content: start;
+}
+.jc-c{
+    justify-content: center;
+}
+.jc-e{
+    justify-content: end;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-sa{
+    justify-content: space-around;
+}
+.jc-se{
+    justify-content: space-evenly;
+}
+
+/* text align */
+.ta-c{
+    text-align: center;
+}
+.ta-l{
+    text-align: left;
+}
+.ta.r{
+    text-align: right;
+}
+.m-auto{
+    margin: auto;
+}
+.bdr-b{
+    border-bottom: 1px solid rgb(50, 120,230);
+}
+.bdr-t{
+    border-top: 1px solid rgb(50, 120,230);
+}
+
+/* Button default */
+.btns{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 100px;
+    margin: 1rem .5rem;
+}
+.btnsHov:hover{
+    box-shadow: 0 0 10px rgb(50, 120,230);
+    color: #fff;
+}
+
+/* Text Default */
+.txtHov:hover{
+    text-shadow: 0 0 15px rgb(50, 120,230);
+}
+
+/* Base */
+.secBase{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.secLt,.secRt{
+    width: 48%;
+    padding: 2rem;
+}
+
+/* seperateing Line */
+.vl{
+    height: 12rem;
+    border-left: 1px solid rgb(50, 120,230);
+}
+.hl{
+    width: 60%;
+    color: rgb(50, 120,230);
+    border-bottom: 1px solid rgb(50, 120,230);
+    
+}
+
+
+/* Circle Progress */
+/* .c-prg{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 329deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-prg::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.prg-val{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.prg-txt{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+} */
+
+/* 
+    <div>
+        <div class="circular-progress">
+            <span class="progress-value">0%</span>
+        </div>
+            <span class="text">HTML & CSS</span>
+    </div>
+*/
+
+/* Circle Progress End */
+   
