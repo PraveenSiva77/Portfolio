@@ -12,7 +12,8 @@
 :root{
     --txt-clr:#fff;
     --txt-sclr:rgb(50,120,230);
-    --main-clr:#13bbff;
+/*     --main-clr:#13bbff; */
+    --main-clr:#800080;
     --bg-clr:#1b1f24;
     --bg-sclr:#22282f;
     --other-clr:#c3cadf;
