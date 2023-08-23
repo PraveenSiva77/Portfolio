@@ -12,4 +12,3 @@ window.onscroll = () => {
     xIcon.classList.remove('fa-xmark');
 };
 
-
