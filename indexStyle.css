@@ -96,7 +96,8 @@ header{
 }
 .info p{
     margin-top: 7%;
-    line-height: 28px;
+    line-height: 30px;
+    font-weight: 500;
     color: var(--other-clr);
 }
 .info .btnsBase{
@@ -166,7 +167,7 @@ header{
 }
 .abtDes h3{
     color: var(--main-clr);
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
     width: 100%;
 }
