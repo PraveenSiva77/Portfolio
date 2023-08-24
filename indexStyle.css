@@ -16,6 +16,7 @@
     --bg-clr:#1b1f24;
     --bg-sclr:#22282f;
     --other-clr:#c3cadf;
+    --other-sclr:#7c87a6;
 
     --h1-f:3rem;
     --h2-f:2.9rem;
@@ -301,7 +302,7 @@ header{
     color: var(--other-clr);
 }
 .portBox a{
-    align-self: flex-end;
+    align-self: center;
     color: var(--main-clr);
     border-radius: 100px;
     width: 50%;
@@ -312,6 +313,12 @@ header{
 }
 .portBox a i{
     margin-left: 5px;
+}
+.portDomain{
+    width: 90%;
+}
+.portDomain p{
+    color: var(--other-sclr);
 }
 
 /* Contact Me */
