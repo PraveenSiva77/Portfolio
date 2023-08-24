@@ -218,7 +218,7 @@ header{
     color: var(--main-clr);
 }
 .serBase{
-    margin: 10% 0;
+    margin: 4% 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     align-items: center;
