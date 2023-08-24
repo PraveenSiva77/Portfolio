@@ -225,7 +225,7 @@ header{
     gap: 1.5rem;
 }
 .serBox{
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid var(--main-clr);
     border-radius: 10px;
     margin: 5px 1.5%;
@@ -236,6 +236,13 @@ header{
 .serBox:hover{
     box-shadow: 2px 2px 10px var(--main-clr);
     transform: scale(1.01);
+}
+.serBox img{
+    width: 100%;
+    border-radius: 8px;
+}
+.serBox h3{
+    margin-top: 7px;
 }
 .serBox p i{
     font-size: 3rem;
