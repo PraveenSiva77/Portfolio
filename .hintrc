@@ -15,6 +15,7 @@
       {
         "meta-refresh": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   }
 }
